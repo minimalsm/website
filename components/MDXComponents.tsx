@@ -46,7 +46,7 @@ export const components = {
         {...props}
         id={id}
         as={'h2' as any}
-        css={{ scrollMarginTop: '$8' }}
+        css={{ scrollMarginTop: '$9' }}
         data-heading
       >
         {children}
@@ -55,7 +55,7 @@ export const components = {
   ),
   h3: ({ children, id, ...props }) => (
     <LinkHeading id={id} css={{ mt: '$7', mb: '$1' }}>
-      <DS.Heading {...props} id={id} as={'h3' as any} css={{ scrollMarginTop: '$8' }} data-heading>
+      <DS.Heading {...props} id={id} as={'h3' as any} css={{ scrollMarginTop: '$9' }} data-heading>
         {children}
       </DS.Heading>
     </LinkHeading>
